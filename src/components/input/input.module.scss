@@ -1,0 +1,62 @@
+@import '../../assets/color.scss';
+
+.article__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #262626;
+}
+.article__label {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-bottom: 21px;
+}
+.article__label:last-of-type {
+  margin-bottom: 18px;
+}
+.article__input {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  width: 874px;
+}
+textarea.article__input {
+  height: 168px;
+  //overflow-x: scroll;
+}
+
+::placeholder {
+  color: #bfbfbf;
+}
+
+.warning {
+  color: $warningColor;
+  margin-block-end: 0;
+  font-size: 12px;
+}
+
+.profile__label {
+  font-size: 14px;
+  line-height: 22px; //????
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-bottom: 21px;
+}
+
+.profile__input {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  width: 320px;
+}

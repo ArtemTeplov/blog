@@ -1,0 +1,35 @@
+@import '../../assets/color.scss';
+
+.profile {
+  background-color: $secondaryBgColor;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #d9d9d9;
+  box-shadow: 0px 22px 106px rgba(0, 0, 0, 0.07), 0px 9.19107px 44.2843px rgba(0, 0, 0, 0.0503198),
+    0px 4.91399px 23.6765px rgba(0, 0, 0, 0.0417275), 0px 2.75474px 13.2728px rgba(0, 0, 0, 0.035),
+    0px 1.46302px 7.04911px rgba(0, 0, 0, 0.0282725), 0px 0.608796px 2.93329px rgba(0, 0, 0, 0.0196802);
+  border-radius: 6px;
+  padding: 48px 32px;
+
+  position: absolute;
+  top: 139px;
+}
+.profile__form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__btn {
+  width: 319px;
+  height: 40px;
+  background: #1890ff;
+  border: 1px solid #1890ff;
+  border-radius: 4px;
+  outline: none;
+  color: #ffffff;
+}
+.profile__btn:focus {
+  border-color: $mainTextColor;
+}
